@@ -295,7 +295,7 @@ i.fa.fa-refresh{
 
 
 
-@media (max-width: 800px)   {
+@media (max-width: 400px)   {
 	body{
 		background-image: url('../img/bg.jpg');
 		margin:0;
