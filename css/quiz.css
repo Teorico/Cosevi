@@ -295,7 +295,11 @@ i.fa.fa-refresh{
 
 
 
-@media(max-width: 854px)   {
+@media(max-width: 800px)   {
+	@viewport {
+		zoom: 0.0; /* same as initial-scale=1 */
+		width: device-width;
+	  }
 	HTML{
 	width: 800px;
 	
@@ -304,7 +308,7 @@ i.fa.fa-refresh{
 		background-image: url('../img/bg.jpg');
 		margin:2%;
 		padding:0;
-		width: 100%;
+		width: 800px;
 		
 		}
 	.header{
@@ -314,8 +318,8 @@ i.fa.fa-refresh{
 		visibility: hidden;
 	}
 	.quiz_wrapper{
-		height: 1100px;
-		width: 800px;
+		height: 70%;
+		width: 90%;
 		background-color: rgba(255, 255, 255, 0.823);
 		margin:10px auto;
 		border-radius: 8px;
