@@ -3,6 +3,9 @@ body{
 	margin:0;
 	padding:0;
 }
+.mobilecap{
+	display: none;
+	visibility: hidden;}
 
 /*--------- nav bar begin---------- */
 
@@ -391,4 +394,45 @@ i.fa.fa-refresh{
 		align-items: center;
 		}
 
+		.dropbtncap {
+			background-color: rgb(35, 174, 209);
+			color: white;
+			padding: 16px;
+			font-size: 30px;
+			border: none;
+			cursor: pointer;
+		  }
+		  
+		  .mobilecap {
+			position: relative;
+			display: inline-block;
+			visibility: visible;
+		  }
+		  
+		  .mobilecap-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+			font-size: 20px;
+		  }
+		  
+		  .mobilecap-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		  }
+		  
+		  .mobilecap-content a:hover {background-color: #e4ab10bd}
+		  
+		  .mobilecap:hover .mobilecap-content {
+			display: block;
+		  }
+		  
+		  .mobilecap:hover .dropbtncap {
+			background-color: #0a6783;
+		  }
 }
