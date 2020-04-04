@@ -243,7 +243,6 @@ button#button.next{
 	float: right;
 	display: flex;
 	align-items: center;
-
 }
 .quiz_wrapper .score .next button:active{
 box-shadow: 0px 3px 0px transparent;	
@@ -289,16 +288,104 @@ i.fa.fa-refresh{
 	background-color: #4caf50;
 	padding: 2.5px 10px;
 	color:#ffffff;
-
 }
 
+@media only screen and (max-width: 768px) { 
+	body{
+		background-image: url('../img/bg.jpg');
+		margin:0;
+		padding:0;
+		
+		}
+	.main-menu{
+		display: none;
+		visibility: hidden;
+	}
+	.quiz_wrapper{
+		height: 1100px;
+		width: 800px;
+		background-color: rgba(255, 255, 255, 0.823);
+		margin:10px auto;
+		border-radius: 8px;
+		padding: 20px;	
+		
+	}
+	
+	.quiz_wrapper .options ul{
+		list-style: none;
+		padding: 0px;		
+		justify-content: space-between;	
+	}
 
+	
+	.quiz_wrapper .options ul li{
+		
+		background-color:#777;
+		width: 100%;
+		padding: 15px;
+		border-radius:8px;
+		margin-top: 35px;
+		font-size: 35px;
+		color:#ffffff;
+		box-shadow: 0px 3px 0px grey;
+		cursor: pointer;
+		outline: none;
+		text-align: center;
+	}
 
+	.quiz_wrapper .question{
+		padding: 15px;
+		background-color:#673ab7;
+		border-radius: 8px;
+		color:#ffffff;
+		font-size:40px;
+		float: left;
+		width: 100%;	
+	}
+	.quiz_wrapper .score .score-card{
+		margin: 0;
+		width: 60%;
+	}
+	.quiz_wrapper .score .score-card{
+		font-size: 35px;
+		color:black;
+		line-height: 50px;
+		text-transform: uppercase;
+	}
+	button#button.next{
+	
+		height: auto;
+		width: 190px;
+		padding: 15px ;
+		color:white;
+		background-color:#e4ab10bd;
+		border:none;
+		border-radius:8px;
+		font-size: 35px;
+		float: right;
+		display: flex;
+		align-items: center;
+	}
+	button.refresh{
+		height: 90px;
+		width: 190px;
+		margin-top: 10px;
+		color:white;
+		background-color:#68e410bd;
+		border:none;
+		border-radius:8px;
+		font-size: 35px;
+		float: right;
+		display: flex;
+		align-items: center;
+			
+	}
+	i.fa.fa-refresh{
+		font-size: 35px;
+		margin-left: 15px ;	
+		float: right;
+		display: flex;
+		align-items: center;
+		}
 
-
-
-
-
-
-
-
+}
