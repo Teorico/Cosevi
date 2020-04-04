@@ -295,13 +295,20 @@ i.fa.fa-refresh{
 
 
 
-@media (max-width: 400px)   {
+@media(max-width: 854px)   {
+	HTML{
+	width: 800px;
+	
+	}
 	body{
 		background-image: url('../img/bg.jpg');
-		margin:0;
+		margin:2%;
 		padding:0;
+		width: 100%;
 		
 		}
+	.header{
+		margin-top: 15%;}
 	.main-menu{
 		display: none;
 		visibility: hidden;
@@ -359,13 +366,13 @@ i.fa.fa-refresh{
 	button#button.next{
 	
 		height: 110px;
-		width: 400px;
-		padding: 15px ;
+		width: 300px;
+		padding: 30px ;
 		color:white;
 		background-color:#e4ab10bd;
 		border:none;
 		border-radius:8px;
-		font-size: 35px;
+		font-size: 45px;
 		float: right;
 		display: flex;
 		align-items: center;
@@ -373,8 +380,8 @@ i.fa.fa-refresh{
 	}
 	button.refresh{
 		height: 110px;
-		width: 400px;
-		margin-top: 10px;
+		width: 300px;
+		margin-top: 30px;
 		color:white;
 		background-color:#68e410bd;
 		border:none;
@@ -393,6 +400,13 @@ i.fa.fa-refresh{
 		align-items: center;
 		}
 
+		  .mobilecap {
+			position: relative;
+			display: grid;
+			visibility: visible;
+			float: right;
+			
+		  }
 		.dropbtncap {
 			background-color: rgb(35, 174, 209);
 			color: white;
@@ -402,11 +416,7 @@ i.fa.fa-refresh{
 			cursor: pointer;
 		  }
 		  
-		  .mobilecap {
-			position: relative;
-			display: inline-block;
-			visibility: visible;
-		  }
+
 		  
 		  .mobilecap-content {
 			display: none;
