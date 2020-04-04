@@ -290,7 +290,9 @@ i.fa.fa-refresh{
 	color:#ffffff;
 }
 
-@media only screen and (max-width: 768px) { 
+
+
+@media screen and (min-width: 500px) {
 	body{
 		background-image: url('../img/bg.jpg');
 		margin:0;
