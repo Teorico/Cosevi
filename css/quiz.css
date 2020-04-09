@@ -299,9 +299,10 @@ i.fa.fa-refresh{
 	@viewport {
 		zoom: 0.0; /* same as initial-scale=1 */
 		width: device-width;
-		user-zoom: fixed;
+		user-zoom:fixed;
 	  }
 	HTML{
+	touch-action:none;
 	width: 800px;
 	
 	}
@@ -372,16 +373,15 @@ i.fa.fa-refresh{
 	
 		height: 110px;
 		width: 300px;
-		padding: 30px ;
 		color:white;
 		background-color:#e4ab10bd;
 		border:none;
 		border-radius:8px;
-		font-size: 45px;
-		float: right;
+		font-size: 35px;
+		float: center;
 		display: flex;
 		align-items: center;
-		text-align: center;
+		padding-left: 55px;
 	}
 	button.refresh{
 		height: 110px;
