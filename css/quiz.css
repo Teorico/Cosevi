@@ -299,6 +299,7 @@ i.fa.fa-refresh{
 	@viewport {
 		zoom: 0.0; /* same as initial-scale=1 */
 		width: device-width;
+		user-zoom: fixed;
 	  }
 	HTML{
 	width: 800px;
@@ -426,15 +427,15 @@ i.fa.fa-refresh{
 			display: none;
 			position: absolute;
 			background-color: #f9f9f9;
-			min-width: 160px;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			min-width: 180px;
+			box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
 			z-index: 1;
-			font-size: 20px;
+			font-size: 26px;
 		  }
 		  
 		  .mobilecap-content a {
 			color: black;
-			padding: 12px 16px;
+			padding: 20px 20px;
 			text-decoration: none;
 			display: block;
 		  }

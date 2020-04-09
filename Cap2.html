@@ -3,13 +3,128 @@
 <head>
 	<title>Exámen teórico</title>
   <meta charset="utf-8">>
+  <meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/quiz.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
 </head>
 <body>
-       
+    <div class="area"></div><nav class="main-menu">
+		<ul>
+			<li>
+				<a href="#">
+					<i class="fa fa-home" style="font-size:35px;" ></i>
+					<span class="nav-text">
+					
+					</span>
+				</a>
+			  
+			</li>
+			<li class="has-subnav">
+				<a href="index.html">
+					
+					<i class="fa fa-book"> </i>
+					<span class="nav-text">
+						Capítulo 1
+					</span>
+				</a>
+				
+			</li>
 
-     <h1>Exámen teórico </h1>
-     <h1>Capítulo 1 </h1>
+			<li class="has-subnav">
+				<a href="Cap2.html">
+					<i class="fa fa-book"> </i>
+					<span class="nav-text">
+						Capítulo 2
+					</span>
+				</a>
+			   
+			</li>
+			<li>
+				<a href="#">
+					<i class="fa fa-book"> </i>
+					<span class="nav-text">
+						Capítulo 3
+					</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="fa fa-book"> </i>
+					<span class="nav-text">
+						Capítulo 4
+					</span>
+				</a>
+			</li>			<li>
+				<a href="#">
+					<i class="fa fa-book"> </i>
+					<span class="nav-text">
+						Capítulo 5
+					</span>
+				</a>
+			</li>			<li>
+				<a href="#">
+					<i class="fa fa-book"> </i>
+					<span class="nav-text">
+						Capítulo 6
+					</span>
+				</a>
+			</li>			<li>
+				<a href="#">
+					<i class="fa fa-book"> </i>
+					<span class="nav-text">
+						Capítulo 7
+					</span>
+				</a>
+			</li>			<li>
+				<a href="#">
+					<i class="fa fa-book"> </i>
+					<span class="nav-text">
+						Capítulo 8
+					</span>
+				</a>
+			</li>			<li>
+				<a href="#">
+					<i class="fa fa-book"> </i>
+					<span class="nav-text">
+						Capítulo 9
+					</span>
+				</a>
+			</li>			<li>
+				<a href="#">
+					<i class="fa fa-book"> </i>
+					<span class="nav-text">
+						Capítulo 10
+					</span>
+				</a>
+			
+
+		</ul>
+
+
+	</nav>
+
+	<nav class="mobilecap">
+		<button class="dropbtncap">Capítulos</button>
+		<div class="mobilecap-content">
+		  <a href="index.html">Capítulo 1</a>
+		  <a href="Cap2.html">Capítulo 2</a>
+		  <a href="#">Capítulo 3</a>
+		  <a href="#">Capítulo 4</a>
+		  <a href="#">Capítulo 5</a>
+		  <a href="#">Capítulo 6</a>
+		  <a href="#">Capítulo 7</a>
+		  <a href="#">Capítulo 8</a>
+		  <a href="#">Capítulo 9</a>
+		  <a href="#">Capítulo 10</a>
+		</div>
+	</nav>
+	<div class="header">
+	<h1>Exámen teórico </h1>
+    <h3>Capítulo 2 </h3>  
+	 </div>
+
 	<div class="quiz_wrapper">
            
            <div class="question" id="questionBox">
@@ -25,16 +140,22 @@
            	  </ul>
            </div>
            <div class="score">
+			<div class="score-card">
+
+				Puntaje : <span id="scoreCard">0</span> <br>
+		  		Calificación : <span id="rate">0</span>
+			  </div>
+			  
            	   <div class="next">
-           	   	  <button type="button" onclick="next()" id="button">Siguiente</button>
-           	   </div>
-           	   <div class="score-card">
-           	   	  Puntaje : <span id="scoreCard">0</span> <br>
-                  Calificación : <span id="rate">0</span>
-           	   </div>
+						<button type="button" class="next" onclick="next()" id="button">Siguiente</button>
+						<button class="refresh" onClick="window.location.reload()"> Reiniciar capitulo  <i class="fa fa-refresh" ></i></button>
+			  </div>
+
+			
+			  
            </div>
 
 	</div>
-<script src="js/script.js"></script>
+<script src="js/script2.js"></script>
 </body>
 </html>
