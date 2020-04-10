@@ -302,7 +302,7 @@ i.fa.fa-refresh{
 		user-zoom:fixed;
 	  }
 	HTML{
-	touch-action:none;
+	touch-action:manipulation;
 	width: 800px;
 	
 	}
